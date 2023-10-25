@@ -27,7 +27,7 @@ const SearchResultPage = () => {
 
   //----------------------fetch fn from api----------------
   const handleFetching = async () => {
-    const url = "http://localhost:3004/data";
+    const url = "https://api-and-citation-generartion-proj-qqmq.vercel.app/data";
     try {
       //do post req using axios
       //in axios , we can send JS obj as it is directly without any conversion
