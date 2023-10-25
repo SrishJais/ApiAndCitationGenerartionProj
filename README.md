@@ -1,13 +1,5 @@
-# Use
-
-download as zip->rename folder name(then open with Vs code) -> npm i->npm start
-
-# Note-Already these npm packages are installed in template so not req to install separately
-Package installed already are----react-router-dom,mui,mui icon,react-icon ising 
-
-#Vs terminal code-
-
-npm i react-router-dom @mui/material @emotion/react @emotion/styled @mui/icons-material @mui/material @emotion/styled @emotion/react react-icons
+#project link-
+https://api-and-citation-generartion-proj-qqmq.vercel.app/
 
 
 # Getting Started with Create React App
