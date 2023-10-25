@@ -139,7 +139,7 @@ const SearchResultPage = () => {
       >
         {/* Render data based on search term by title */}
         {searchResultData &&
-          searchResultData.map((val) => <MyCard item={val} />)}
+          searchResultData.map((val) => <MyCard item={val} key={val.paperId}/>)}
       </Masonry>
 
       {/* display when no info related to search tem is found */}
