@@ -1,0 +1,311 @@
+{
+  "data": [
+    {
+      "paperId": "81600fd653a828d69f6160705be6814dd101beb7",
+      "url": "https://www.semanticscholar.org/paper/81600fd653a828d69f6160705be6814dd101beb7",
+      "title": "From local explanations to global understanding with explainable AI for trees",
+      "abstract": null,
+      "citationCount": 2513,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://europepmc.org/articles/pmc7326367?pdf=render",
+        "status": "GREEN"
+      },
+      "journal": {
+        "name": "Nature Machine Intelligence",
+        "pages": "56 - 67",
+        "volume": "2"
+      },
+      "citationStyles": {
+        "bibtex": "@Article{Lundberg2020FromLE,\n author = {Scott M. Lundberg and G. Erion and Hugh Chen and A. DeGrave and J. Prutkin and B. Nair and R. Katz and J. Himmelfarb and N. Bansal and Su-In Lee},\n booktitle = {Nature Machine Intelligence},\n journal = {Nature Machine Intelligence},\n pages = {56 - 67},\n title = {From local explanations to global understanding with explainable AI for trees},\n volume = {2},\n year = {2020}\n}\n"
+      },
+      "authors": [
+        { "authorId": "23451726", "name": "Scott M. Lundberg" },
+        { "authorId": "6579861", "name": "G. Erion" },
+        { "authorId": "2616600", "name": "Hugh Chen" },
+        { "authorId": "50731529", "name": "A. DeGrave" },
+        { "authorId": "3869000", "name": "J. Prutkin" },
+        { "authorId": "2447936", "name": "B. Nair" },
+        { "authorId": "2740105", "name": "R. Katz" },
+        { "authorId": "3538555", "name": "J. Himmelfarb" },
+        { "authorId": "34451449", "name": "N. Bansal" },
+        { "authorId": "2180463", "name": "Su-In Lee" }
+      ]
+    },
+    {
+      "paperId": "530a059cb48477ad1e3d4f8f4b153274c8997332",
+      "url": "https://www.semanticscholar.org/paper/530a059cb48477ad1e3d4f8f4b153274c8997332",
+      "title": "Explainable Artificial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI",
+      "abstract": null,
+      "citationCount": 3398,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://bird.bcamath.org/bitstream/20.500.11824/1166/1/24.%20main.pdf",
+        "status": "GREEN"
+      },
+      "journal": { "name": "Inf. Fusion", "pages": "82-115", "volume": "58" },
+      "citationStyles": {
+        "bibtex": "@Article{Arrieta2019ExplainableAI,\n author = {Alejandro Barredo Arrieta and Natalia Díaz Rodríguez and J. Ser and Adrien Bennetot and S. Tabik and A. Barbado and S. García and S. Gil-Lopez and D. Molina and Richard Benjamins and Raja Chatila and Francisco Herrera},\n booktitle = {Information Fusion},\n journal = {Inf. Fusion},\n pages = {82-115},\n title = {Explainable Artificial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI},\n volume = {58},\n year = {2019}\n}\n"
+      },
+      "authors": [
+        { "authorId": "1379511816", "name": "Alejandro Barredo Arrieta" },
+        { "authorId": "2058921025", "name": "Natalia Díaz Rodríguez" },
+        { "authorId": "9221552", "name": "J. Ser" },
+        { "authorId": "1379511786", "name": "Adrien Bennetot" },
+        { "authorId": "3030006", "name": "S. Tabik" },
+        { "authorId": "50449165", "name": "A. Barbado" },
+        { "authorId": "39558258", "name": "S. García" },
+        { "authorId": "1402195255", "name": "S. Gil-Lopez" },
+        { "authorId": "145337392", "name": "D. Molina" },
+        { "authorId": "2445552", "name": "Richard Benjamins" },
+        { "authorId": "2091924780", "name": "Raja Chatila" },
+        { "authorId": "2098723448", "name": "Francisco Herrera" }
+      ]
+    },
+    {
+      "paperId": "3936fd3c6187f606c6e4e2e20b196dbc41cc4654",
+      "url": "https://www.semanticscholar.org/paper/3936fd3c6187f606c6e4e2e20b196dbc41cc4654",
+      "title": "Constitutional AI: Harmlessness from AI Feedback",
+      "abstract": "As AI systems become more capable, we would like to enlist their help to supervise other AIs. We experiment with methods for training a harmless AI assistant through self-improvement, without any human labels identifying harmful outputs. The only human oversight is provided through a list of rules or principles, and so we refer to the method as 'Constitutional AI'. The process involves both a supervised learning and a reinforcement learning phase. In the supervised phase we sample from an initial model, then generate self-critiques and revisions, and then finetune the original model on revised responses. In the RL phase, we sample from the finetuned model, use a model to evaluate which of the two samples is better, and then train a preference model from this dataset of AI preferences. We then train with RL using the preference model as the reward signal, i.e. we use 'RL from AI Feedback' (RLAIF). As a result we are able to train a harmless but non-evasive AI assistant that engages with harmful queries by explaining its objections to them. Both the SL and RL methods can leverage chain-of-thought style reasoning to improve the human-judged performance and transparency of AI decision making. These methods make it possible to control AI behavior more precisely and with far fewer human labels.",
+      "citationCount": 307,
+      "isOpenAccess": false,
+      "openAccessPdf": null,
+      "journal": { "name": "ArXiv", "volume": "abs/2212.08073" },
+      "citationStyles": {
+        "bibtex": "@Article{Bai2022ConstitutionalAH,\n author = {Yuntao Bai and Saurav Kadavath and Sandipan Kundu and Amanda Askell and John Kernion and Andy Jones and A. Chen and Anna Goldie and Azalia Mirhoseini and C. McKinnon and Carol Chen and Catherine Olsson and C. Olah and Danny Hernandez and Dawn Drain and Deep Ganguli and Dustin Li and Eli Tran-Johnson and E. Perez and Jamie Kerr and J. Mueller and Jeff Ladish and J. Landau and Kamal Ndousse and Kamilė Lukošiūtė and Liane Lovitt and Michael Sellitto and Nelson Elhage and Nicholas Schiefer and Noem'i Mercado and Nova DasSarma and R. Lasenby and Robin Larson and Sam Ringer and Scott Johnston and S. Kravec and S. E. Showk and Stanislav Fort and Tamera Lanham and Timothy Telleen-Lawton and Tom Conerly and T. Henighan and Tristan Hume and Sam Bowman and Zac Hatfield-Dodds and Benjamin Mann and Dario Amodei and Nicholas Joseph and Sam McCandlish and Tom B. Brown and Jared Kaplan},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Constitutional AI: Harmlessness from AI Feedback},\n volume = {abs/2212.08073},\n year = {2022}\n}\n"
+      },
+      "authors": [
+        { "authorId": "1486307451", "name": "Yuntao Bai" },
+        { "authorId": "148070327", "name": "Saurav Kadavath" },
+        { "authorId": "2158813858", "name": "Sandipan Kundu" },
+        { "authorId": "119609682", "name": "Amanda Askell" },
+        { "authorId": "1583434563", "name": "John Kernion" },
+        { "authorId": "2149890773", "name": "Andy Jones" },
+        { "authorId": "2111074159", "name": "A. Chen" },
+        { "authorId": "46684455", "name": "Anna Goldie" },
+        { "authorId": "1861312", "name": "Azalia Mirhoseini" },
+        { "authorId": "2190108315", "name": "C. McKinnon" },
+        { "authorId": "2183729976", "name": "Carol Chen" },
+        { "authorId": "2061321863", "name": "Catherine Olsson" },
+        { "authorId": "37232298", "name": "C. Olah" },
+        { "authorId": "39182747", "name": "Danny Hernandez" },
+        { "authorId": "1943097969", "name": "Dawn Drain" },
+        { "authorId": "2081806483", "name": "Deep Ganguli" },
+        { "authorId": "2108506462", "name": "Dustin Li" },
+        { "authorId": "2175781319", "name": "Eli Tran-Johnson" },
+        { "authorId": "47635264", "name": "E. Perez" },
+        { "authorId": "2067765208", "name": "Jamie Kerr" },
+        { "authorId": "2190111475", "name": "J. Mueller" },
+        { "authorId": "70988670", "name": "Jeff Ladish" },
+        { "authorId": "2068044809", "name": "J. Landau" },
+        { "authorId": "1978097132", "name": "Kamal Ndousse" },
+        { "authorId": "2105347564", "name": "Kamilė Lukošiūtė" },
+        { "authorId": "2154608229", "name": "Liane Lovitt" },
+        { "authorId": "2054578129", "name": "Michael Sellitto" },
+        { "authorId": "2866708", "name": "Nelson Elhage" },
+        { "authorId": "2833768", "name": "Nicholas Schiefer" },
+        { "authorId": "2190107517", "name": "Noem'i Mercado" },
+        { "authorId": "2142833890", "name": "Nova DasSarma" },
+        { "authorId": "3112577", "name": "R. Lasenby" },
+        { "authorId": "48810415", "name": "Robin Larson" },
+        { "authorId": "1380664820", "name": "Sam Ringer" },
+        { "authorId": "2154610174", "name": "Scott Johnston" },
+        { "authorId": "49604482", "name": "S. Kravec" },
+        { "authorId": "2154609053", "name": "S. E. Showk" },
+        { "authorId": "30176974", "name": "Stanislav Fort" },
+        { "authorId": "46239941", "name": "Tamera Lanham" },
+        { "authorId": "1419532638", "name": "Timothy Telleen-Lawton" },
+        { "authorId": "2154608209", "name": "Tom Conerly" },
+        { "authorId": "103143311", "name": "T. Henighan" },
+        { "authorId": "2162194147", "name": "Tristan Hume" },
+        { "authorId": "1799822", "name": "Sam Bowman" },
+        { "authorId": "1573482302", "name": "Zac Hatfield-Dodds" },
+        { "authorId": "2056658938", "name": "Benjamin Mann" },
+        { "authorId": "2698777", "name": "Dario Amodei" },
+        { "authorId": "2117706920", "name": "Nicholas Joseph" },
+        { "authorId": "52238703", "name": "Sam McCandlish" },
+        { "authorId": "31035595", "name": "Tom B. Brown" },
+        { "authorId": "2053807409", "name": "Jared Kaplan" }
+      ]
+    },
+    {
+      "paperId": "5d6f8b7dbe3909869f2821e50ab0f9e9623f32e2",
+      "url": "https://www.semanticscholar.org/paper/5d6f8b7dbe3909869f2821e50ab0f9e9623f32e2",
+      "title": "AI in health and medicine",
+      "abstract": null,
+      "citationCount": 397,
+      "isOpenAccess": false,
+      "openAccessPdf": null,
+      "journal": {
+        "name": "Nature Medicine",
+        "pages": "31 - 38",
+        "volume": "28"
+      },
+      "citationStyles": {
+        "bibtex": "@Article{Rajpurkar2022AIIH,\n author = {P. Rajpurkar and E. Chen and O. Banerjee and E. Topol},\n booktitle = {Nature Network Boston},\n journal = {Nature Medicine},\n pages = {31 - 38},\n title = {AI in health and medicine},\n volume = {28},\n year = {2022}\n}\n"
+      },
+      "authors": [
+        { "authorId": "1453104568", "name": "P. Rajpurkar" },
+        { "authorId": "114863658", "name": "E. Chen" },
+        { "authorId": "2047009195", "name": "O. Banerjee" },
+        { "authorId": "144758045", "name": "E. Topol" }
+      ]
+    },
+    {
+      "paperId": "514520ee917e1390db971deea0d3d5799e64d1f3",
+      "url": "https://www.semanticscholar.org/paper/514520ee917e1390db971deea0d3d5799e64d1f3",
+      "title": "Fusing Blockchain and AI With Metaverse: A Survey",
+      "abstract": "Metaverse as the latest buzzword has attracted great attention from both industry and academia. Metaverse seamlessly integrates the real world with the virtual world and allows avatars to carry out rich activities including creation, display, entertainment, social networking, and trading. Thus, it is promising to build an exciting digital world and to transform a better physical world through the exploration of the metaverse. In this survey, we dive into the metaverse by discussing how Blockchain and Artificial Intelligence (AI) fuse with it through investigating the state-of-the-art studies across the metaverse components, digital currencies, AI applications in the virtual world, and blockchain-empowered technologies. Further exploitation and interdisciplinary research on the fusion of AI and Blockchain towards metaverse will definitely require collaboration from both academia and industries. We wish that our survey can help researchers, engineers, and educators build an open, fair, and rational future metaverse.",
+      "citationCount": 147,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://ieeexplore.ieee.org/ielx7/8782664/9024218/09815155.pdf",
+        "status": "GOLD"
+      },
+      "journal": {
+        "name": "IEEE Open Journal of the Computer Society",
+        "pages": "122-136",
+        "volume": "3"
+      },
+      "citationStyles": {
+        "bibtex": "@Article{Yang2022FusingBA,\n author = {Qinglin Yang and Yetong Zhao and Huawei Huang and Zehui Xiong and Jiawen Kang and Zibin Zheng},\n booktitle = {IEEE Open Journal of the Computer Society},\n journal = {IEEE Open Journal of the Computer Society},\n pages = {122-136},\n title = {Fusing Blockchain and AI With Metaverse: A Survey},\n volume = {3},\n year = {2022}\n}\n"
+      },
+      "authors": [
+        { "authorId": "2029694981", "name": "Qinglin Yang" },
+        { "authorId": "2154477204", "name": "Yetong Zhao" },
+        { "authorId": "21941206", "name": "Huawei Huang" },
+        { "authorId": "2943819", "name": "Zehui Xiong" },
+        { "authorId": "145993626", "name": "Jiawen Kang" },
+        { "authorId": "144291579", "name": "Zibin Zheng" }
+      ]
+    },
+    {
+      "paperId": "22548cb1c72e4966a3c465c8363c1e421ab66748",
+      "url": "https://www.semanticscholar.org/paper/22548cb1c72e4966a3c465c8363c1e421ab66748",
+      "title": "AI-Based Modeling: Techniques, Applications and Research Issues Towards Automation, Intelligent and Smart Systems",
+      "abstract": null,
+      "citationCount": 120,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://link.springer.com/content/pdf/10.1007/s42979-022-01043-x.pdf",
+        "status": "HYBRID"
+      },
+      "journal": { "name": "Sn Computer Science", "volume": "3" },
+      "citationStyles": {
+        "bibtex": "@Article{Sarker2022AIBasedMT,\n author = {Iqbal H. Sarker},\n booktitle = {SN Computer Science},\n journal = {Sn Computer Science},\n title = {AI-Based Modeling: Techniques, Applications and Research Issues Towards Automation, Intelligent and Smart Systems},\n volume = {3},\n year = {2022}\n}\n"
+      },
+      "authors": [{ "authorId": "3456687", "name": "Iqbal H. Sarker" }]
+    },
+    {
+      "paperId": "1b32b77718be22ca31c2a0dba709c815e19d4672",
+      "url": "https://www.semanticscholar.org/paper/1b32b77718be22ca31c2a0dba709c815e19d4672",
+      "title": "Ethics Guidelines for Trustworthy AI",
+      "abstract": null,
+      "citationCount": 908,
+      "isOpenAccess": false,
+      "openAccessPdf": null,
+      "journal": {
+        "name": "The Cambridge Handbook of Lawyering in the Digital Age"
+      },
+      "citationStyles": {
+        "bibtex": "@Article{Cannarsa2021EthicsGF,\n author = {M. Cannarsa},\n booktitle = {The Cambridge Handbook of Lawyering in the Digital Age},\n journal = {The Cambridge Handbook of Lawyering in the Digital Age},\n title = {Ethics Guidelines for Trustworthy AI},\n year = {2021}\n}\n"
+      },
+      "authors": [{ "authorId": "122853846", "name": "M. Cannarsa" }]
+    },
+    {
+      "paperId": "acb0b04bf282a5a04bd2ca050d8be3dec78a4668",
+      "url": "https://www.semanticscholar.org/paper/acb0b04bf282a5a04bd2ca050d8be3dec78a4668",
+      "title": "International evaluation of an AI system for breast cancer screening",
+      "abstract": null,
+      "citationCount": 1398,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://www.repository.cam.ac.uk/bitstreams/973c43cb-96f5-43a9-882b-722a44a469da/download",
+        "status": "GREEN"
+      },
+      "journal": { "name": "Nature", "pages": "89 - 94", "volume": "577" },
+      "citationStyles": {
+        "bibtex": "@Article{McKinney2020InternationalEO,\n author = {S. McKinney and M. Sieniek and Varun Godbole and Jonathan Godwin and Natasha Antropova and H. Ashrafian and T. Back and Mary Chesus and Greg C. Corrado and A. Darzi and M. Etemadi and Florencia Garcia-Vicente and F. Gilbert and M. Halling-Brown and D. Hassabis and Sunny Jansen and A. Karthikesalingam and Christopher J. Kelly and Dominic King and J. Ledsam and David S. Melnick and Hormuz Mostofi and L. Peng and J. Reicher and Bernardino Romera-Paredes and R. Sidebottom and Mustafa Suleyman and Daniel Tse and K. Young and J. Fauw and S. Shetty},\n booktitle = {Nature},\n journal = {Nature},\n pages = {89 - 94},\n title = {International evaluation of an AI system for breast cancer screening},\n volume = {577},\n year = {2020}\n}\n"
+      },
+      "authors": [
+        { "authorId": "2047820455", "name": "S. McKinney" },
+        { "authorId": "1717409", "name": "M. Sieniek" },
+        { "authorId": "40156666", "name": "Varun Godbole" },
+        { "authorId": "2069002234", "name": "Jonathan Godwin" },
+        { "authorId": "4763345", "name": "Natasha Antropova" },
+        { "authorId": "46370967", "name": "H. Ashrafian" },
+        { "authorId": "2830305", "name": "T. Back" },
+        { "authorId": "1472894368", "name": "Mary Chesus" },
+        { "authorId": "1472894007", "name": "Greg C. Corrado" },
+        { "authorId": "11388466", "name": "A. Darzi" },
+        { "authorId": "1970920", "name": "M. Etemadi" },
+        { "authorId": "2001051215", "name": "Florencia Garcia-Vicente" },
+        { "authorId": "1864156", "name": "F. Gilbert" },
+        { "authorId": "1401807057", "name": "M. Halling-Brown" },
+        { "authorId": "48987704", "name": "D. Hassabis" },
+        { "authorId": "1472894042", "name": "Sunny Jansen" },
+        { "authorId": "6413143", "name": "A. Karthikesalingam" },
+        { "authorId": "144887886", "name": "Christopher J. Kelly" },
+        { "authorId": "1388915274", "name": "Dominic King" },
+        { "authorId": "48072655", "name": "J. Ledsam" },
+        { "authorId": "1423630269", "name": "David S. Melnick" },
+        { "authorId": "70605050", "name": "Hormuz Mostofi" },
+        { "authorId": "49506408", "name": "L. Peng" },
+        { "authorId": "40056219", "name": "J. Reicher" },
+        { "authorId": "1403031665", "name": "Bernardino Romera-Paredes" },
+        { "authorId": "32833207", "name": "R. Sidebottom" },
+        { "authorId": "2573615", "name": "Mustafa Suleyman" },
+        { "authorId": "145448045", "name": "Daniel Tse" },
+        { "authorId": "74009209", "name": "K. Young" },
+        { "authorId": "3364908", "name": "J. Fauw" },
+        { "authorId": "2894170", "name": "S. Shetty" }
+      ]
+    },
+    {
+      "paperId": "8e56f9663a7985d394a3880e9b54261e23a813da",
+      "url": "https://www.semanticscholar.org/paper/8e56f9663a7985d394a3880e9b54261e23a813da",
+      "title": "Advances, challenges and opportunities in creating data for trustworthy AI",
+      "abstract": null,
+      "citationCount": 82,
+      "isOpenAccess": false,
+      "openAccessPdf": null,
+      "journal": {
+        "name": "Nature Machine Intelligence",
+        "pages": "669 - 677",
+        "volume": "4"
+      },
+      "citationStyles": {
+        "bibtex": "@Article{Liang2022AdvancesCA,\n author = {Weixin Liang and G. Tadesse and Daniel Ho and Li Fei-Fei and M. Zaharia and Ce Zhang and James Zou},\n booktitle = {Nature Machine Intelligence},\n journal = {Nature Machine Intelligence},\n pages = {669 - 677},\n title = {Advances, challenges and opportunities in creating data for trustworthy AI},\n volume = {4},\n year = {2022}\n}\n"
+      },
+      "authors": [
+        { "authorId": "151253861", "name": "Weixin Liang" },
+        { "authorId": "51228744", "name": "G. Tadesse" },
+        { "authorId": "2056458351", "name": "Daniel Ho" },
+        { "authorId": "48004138", "name": "Li Fei-Fei" },
+        { "authorId": "143834867", "name": "M. Zaharia" },
+        { "authorId": "2146064155", "name": "Ce Zhang" },
+        { "authorId": "2111395701", "name": "James Zou" }
+      ]
+    },
+    {
+      "paperId": "17859c19e41a29b657aa3323ed396f733086c47d",
+      "url": "https://www.semanticscholar.org/paper/17859c19e41a29b657aa3323ed396f733086c47d",
+      "title": "Prevention of Phishing Attacks Using AI-Based Cybersecurity Awareness Training",
+      "abstract": "Machine learning has been described as an effective measure in avoiding most cyberattacks. The development of AI has therefore promoted increased security for most computer attacks. Phishing attacks are risky and can be prevented through AI-based solutions. This factor suggests the need for increased awareness of cybersecurity through AI. Developing awareness for most people will prevent these types of attacks. The research paper describes how the awareness of AI-based cybersecurity could ensure a reduction of phishing attacks. The paper, therefore, showcases the effectiveness of AI-based cybersecurity awareness training and how it may influence cyber-attacks.",
+      "citationCount": 94,
+      "isOpenAccess": true,
+      "openAccessPdf": null,
+      "journal": {
+        "name": "International Journal of Smart Sensor and Adhoc Network."
+      },
+      "citationStyles": {
+        "bibtex": "@Article{Ansari2022PreventionOP,\n author = {Md Meraj Ansari and Pawan Kumar Sharma and Bibhu Dash},\n booktitle = {International Journal of Smart Sensor and Adhoc Network.},\n journal = {International Journal of Smart Sensor and Adhoc Network.},\n title = {Prevention of Phishing Attacks Using AI-Based Cybersecurity Awareness Training},\n year = {2022}\n}\n"
+      },
+      "authors": [
+        { "authorId": "33220564", "name": "Md Meraj Ansari" },
+        { "authorId": "2128204211", "name": "Pawan Kumar Sharma" },
+        { "authorId": "2064326216", "name": "Bibhu Dash" }
+      ]
+    }
+  ]
+}

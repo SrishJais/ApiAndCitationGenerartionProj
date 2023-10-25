@@ -1,0 +1,10 @@
+#searchPage{
+    min-height:83vh;
+}
+#searchTheWebbtn {
+    text-transform: none;
+    border-radius: 20px;
+}
+#searchTheWebbtn:focus{
+    outline: none;
+}

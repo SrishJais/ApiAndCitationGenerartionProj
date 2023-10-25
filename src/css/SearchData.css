@@ -1,0 +1,16 @@
+/* search section */
+#searchInputSection {
+  width: 100%;
+  border: 2px solid #a9a3a3;
+}
+/* search icon */
+#searchTerm_icon:focus {
+  outline: none;
+}
+label {
+  margin-bottom: 0px;
+}
+/* directionBtn in search input field */
+#directionBtn {
+  border-radius: 50%;
+}
