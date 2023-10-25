@@ -45,7 +45,7 @@ export default function MyCard({ item }) {
   const bibtexYr = bibtex.match(yearRegex)[1];
 
   return (
-    <Card sx={{ minWidth: 150 }} key={paperId}>
+    <Card sx={{ minWidth: 150 }}>
       <CardContent sx={{ padding: "8px" }}>
         {/* -----------------------------------------card header------------------------------------- */}
         <div className="flexSpaceBtw">
@@ -62,7 +62,12 @@ export default function MyCard({ item }) {
             </Typography>
             {/* Pdf link  */}
             <Typography variant="linkText" color="secondary">
-              {pdfUrl && <a href={pdfUrl}>PDF</a>}
+              {/* open link in new tab to avoid refresh of cureent page */}
+              {pdfUrl && (
+                <a href={pdfUrl} target="_blank" rel="noopener noreferrer">
+                  PDF
+                </a>
+              )}
             </Typography>
           </Box>
           {/* Bokmark icon */}
@@ -92,16 +97,19 @@ export default function MyCard({ item }) {
 
         {/* card author */}
         <Box sx={{ display: "flex" }}>
-          {item.authors.slice(0, 2).map((val) => (
-            <Typography
-              variant="smallText"
-              sx={{ fontSize: "10px" }}
-              color="text.subtle"
-              gutterBottom
-            >
-              {val.name} ,
-            </Typography>
-          ))}
+          {item.authors &&
+            item.authors.slice(0, 2).map((val) => (
+              <Typography
+                variant="smallText"
+                sx={{ fontSize: "10px" }}
+                color="text.subtle"
+                gutterBottom
+                key={val.authorId}
+              >
+                {val.name} ,
+              </Typography>
+            ))}
+
           <Typography
             variant="smallText"
             sx={{ fontSize: "10px" }}
